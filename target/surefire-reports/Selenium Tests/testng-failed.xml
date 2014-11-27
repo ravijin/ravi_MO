@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Selenium Tests]" parallel="tests">
+  <parameter name="port" value="4444"/>
+  <parameter name="browser" value="IE"/>
+  <test name="Test in IE(failed)" parallel="tests">
+    <parameter name="port" value="4444"/>
+    <parameter name="browser" value="IE"/>
+    <classes>
+      <class name="com.seleniumtests.test.LoginTest">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="AppLaunchTest"/>
+        </methods>
+      </class> <!-- com.seleniumtests.test.LoginTest -->
+    </classes>
+  </test> <!-- Test in IE(failed) -->
+</suite> <!-- Failed suite [Selenium Tests] -->

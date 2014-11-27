@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Selenium Tests" duration-ms="12621" started-at="2014-11-27T19:22:39Z" finished-at="2014-11-27T19:22:52Z">
+    <groups>
+    </groups>
+    <test name="Test in IE" duration-ms="12621" started-at="2014-11-27T19:22:39Z" finished-at="2014-11-27T19:22:52Z">
+      <class name="com.seleniumtests.test.LoginTest">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:com.seleniumtests.test.LoginTest@4d83f797]" name="launchBrowser" is-config="true" duration-ms="3482" started-at="2014-11-28T00:52:39Z" finished-at="2014-11-28T00:52:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="setEnv(java.lang.String)[pri:0, instance:com.seleniumtests.test.LoginTest@4d83f797]" name="setEnv" is-config="true" duration-ms="0" started-at="2014-11-28T00:52:42Z" finished-at="2014-11-28T00:52:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://dev.mathmagicians.dk:8080/mo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setEnv -->
+        <test-method status="PASS" signature="AppLaunchTest()[pri:0, instance:com.seleniumtests.test.LoginTest@4d83f797]" name="AppLaunchTest" duration-ms="8075" started-at="2014-11-28T00:52:42Z" finished-at="2014-11-28T00:52:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AppLaunchTest -->
+        <test-method status="PASS" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:com.seleniumtests.test.LoginTest@4d83f797]" name="closeBrowser" is-config="true" duration-ms="1048" started-at="2014-11-28T00:52:50Z" finished-at="2014-11-28T00:52:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AppLaunchTest status=SUCCESS method=LoginTest.AppLaunchTest()[pri:0, instance:com.seleniumtests.test.LoginTest@4d83f797] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.seleniumtests.test.LoginTest -->
+    </test> <!-- Test in IE -->
+  </suite> <!-- Selenium Tests -->
+</testng-results>
